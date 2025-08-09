@@ -1,0 +1,16 @@
+[package]
+name = "Contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+my_address = "d0ede1465e8e00df38883f03d770302f7f8bdefa2c2442ef7b6c0bf57a139925"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
